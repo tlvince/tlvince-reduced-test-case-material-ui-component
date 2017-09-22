@@ -1,0 +1,63 @@
+{
+  "name": "tlvince-reduced-test-case-material-ui-component",
+  "version": "0.0.0",
+  "description": "Reduced test case for facebookincubator/create-react-app#3173",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "mkdir -p dist && NODE_ENV='production' babel src -d dist",
+    "start": "NODE_ENV='development' webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlvince/tlvince-reduced-test-case-material-ui-component.git"
+  },
+  "keywords": [
+    "cra",
+    "material",
+    "react"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "engines": {
+    "npm": ">=5.3",
+    "node": ">=6.11"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/tlvince-reduced-test-case-material-ui-component/issues"
+  },
+  "homepage": "https://github.com/tlvince/tlvince-reduced-test-case-material-ui-component#readme",
+  "dependencies": {
+    "material-ui": "1.0.0-beta.11",
+    "material-ui-icons": "1.0.0-beta.10",
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  },
+  "devDependencies": {
+    "babel": "6.23.0",
+    "babel-cli": "6.24.1",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-es2015-destructuring": "6.23.0",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "dotenv": "4.0.0",
+    "dotenv-webpack": "1.5.4",
+    "jest": "20.0.4",
+    "json-loader": "0.5.7",
+    "node-uuid": "1.4.8",
+    "react-test-renderer": "15.6.1",
+    "semantic-release": "7.0.1",
+    "standard": "10.0.2",
+    "style-loader": "0.18.2",
+    "webpack": "3.4.1",
+    "webpack-config-utils": "2.3.0",
+    "webpack-dev-server": "2.7.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "Apache-2.0"
+}
